@@ -1,13 +1,9 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, ArrowRight, Shield, Clock, Globe } from "lucide-react";
+import { Phone, ArrowRight } from "lucide-react";
 
-const badges = [
-  { icon: Shield, text: "CAMTS Accredited" },
-  { icon: Clock,  text: "24/7 Dispatch"    },
-  { icon: Globe,  text: "180+ Countries"   },
-];
+
 
 export default function HeroSection() {
   return (
@@ -66,18 +62,6 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          {/* Trust badges */}
-          <div className="flex flex-wrap gap-4 animate-fade-up" style={{ animationDelay: "0.35s" }}>
-            {badges.map(({ icon: Icon, text }) => (
-              <div
-                key={text}
-                className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white px-4 py-2 rounded-full text-sm font-medium"
-              >
-                <Icon size={14} className="text-[#ff7a0f]" />
-                {text}
-              </div>
-            ))}
-          </div>
         </div>
       </div>
       {/* Bottom info strip */}

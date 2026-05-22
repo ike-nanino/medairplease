@@ -127,13 +127,6 @@ export default function ServicesSection() {
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   {service.description}
                 </p>
-                <div className="flex items-center gap-1 text-[#c40000] text-sm font-semibold">
-                  Learn more
-                  <ArrowRight
-                    size={14}
-                    className="transition-transform group-hover:translate-x-1"
-                  />
-                </div>
               </div>
             </Link>
           ))}

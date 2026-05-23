@@ -76,7 +76,7 @@ export default function HomePage() {
       <StatsSection />
       <ServicesSection />
        {/* ── Airline Affiliations ── */}
-            <section className="py-20 bg-[#e97ae9]">
+            <section className="py-20 bg-[#49147a]">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-14">
                   <span className="inline-block text-[11px] font-bold tracking-[0.18em] uppercase text-[#C0392B] bg-[#C0392B]/10 border border-[#C0392B]/25 px-4 py-1.5 rounded-sm mb-4">

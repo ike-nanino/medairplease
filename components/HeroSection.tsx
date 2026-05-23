@@ -27,10 +27,10 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full py-20">
         <div className="max-w-2xl">
           {/* Pre-headline */}
-          <div className="inline-flex items-center gap-2 bg-[#9f0000]/90 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-fade-in">
+          {/* <div className="inline-flex items-center gap-2 bg-[#9f0000]/90 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-fade-in">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             Dispatch Available Now — 24 / 7 / 365
-          </div>
+          </div> */}
 
           {/* Headline */}
           <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-[1.05] mb-6 animate-fade-up">

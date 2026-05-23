@@ -40,11 +40,11 @@ export default function Footer() {
             World-class medical transport services across six continents. Available around the clock — because emergencies don&apos;t wait.
           </p>
           <div className="space-y-2">
-            <a href="tel:+18005550199" className="flex items-center gap-2 text-amber-400 font-semibold text-sm hover:text-amber-300 transition-colors">
+            <a href="tel:+17042997318" className="flex items-center gap-2 text-amber-400 font-semibold text-sm hover:text-amber-300 transition-colors">
               <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.63a16 16 0 006.29 6.29l1.95-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
               </svg>
-              +1 (800) 555-0199
+              +1 (704) 299-7318
             </a>
             <a href="mailto:medairtransportservice@outlook.com" className="flex items-center gap-2 text-white/60 text-sm hover:text-white transition-colors">
               <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

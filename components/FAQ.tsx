@@ -104,7 +104,7 @@ export default function FAQ() {
           </div>
           <div className="flex gap-3 shrink-0">
             <a
-              href="tel:+18005550199"
+              href="tel:+17042997318"
               className="flex items-center gap-2 bg-[#C0392B] hover:bg-[#96281B] text-white font-semibold text-sm px-5 py-3 rounded-lg transition-colors"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

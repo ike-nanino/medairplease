@@ -6,8 +6,8 @@ export default function EmergencyBar() {
           <span className="w-2 h-2 rounded-full bg-red-400 animate-pulse shrink-0" />
           <span className="text-white/70">
             <span className="font-semibold text-white">24/7 Emergency:</span>{' '}
-            <a href="tel:+18005550199" className="text-amber-400 font-semibold hover:text-white transition-colors">
-              +1 (800) 555-0199
+            <a href="tel:+17042997318" className="text-amber-400 font-semibold hover:text-white transition-colors">
+              +1 (704) 299-7318
             </a>
             <span className="mx-2 text-white/30">·</span>
            

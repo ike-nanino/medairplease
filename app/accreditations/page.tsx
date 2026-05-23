@@ -336,29 +336,7 @@ export default function AccreditationsPage() {
         </div>
       </section>
 
-      {/* ── CTA ── */}
-      {/* <section className="bg-[#C0392B] py-14">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Questions About Our Certifications?</h2>
-          <p className="text-white/80 mb-7 text-sm leading-relaxed max-w-lg mx-auto">
-            Our quality assurance team can provide documentation, auditor contacts and detailed certification records for insurance and hospital partners.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+18005550199"
-              className="flex items-center justify-center gap-2 bg-white text-[#C0392B] font-bold px-8 py-3.5 rounded-xl hover:bg-amber-50 transition-colors"
-            >
-              Call Us
-            </a>
-            <a
-              href="mailto:info@medairglobal.com"
-              className="flex items-center justify-center gap-2 border-2 border-white/60 text-white font-bold px-8 py-3.5 rounded-xl hover:bg-white/10 transition-colors"
-            >
-              Email Quality Team
-            </a>
-          </div>
-        </div>
-      </section> */}
+    
     </>
   )
 }

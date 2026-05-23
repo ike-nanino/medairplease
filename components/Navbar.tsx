@@ -84,7 +84,7 @@ export default function Navbar() {
 
             {/* Desktop CTA */}
             <a
-              href="tel:+18005550199"
+              href="tel:+17042997318"
               className="hidden lg:flex items-center gap-2 bg-[#C0392B] hover:bg-[#96281B] text-white text-sm font-semibold px-5 py-2.5 rounded transition-colors duration-200 shrink-0"
             >
               <svg
@@ -191,7 +191,7 @@ export default function Navbar() {
 
           <div className="p-5 border-t border-stone-100 space-y-3">
             <a
-              href="tel:+18005550199"
+              href="tel:+17042997318"
               className="flex items-center justify-center gap-2 w-full bg-[#C0392B] hover:bg-[#96281B] text-white font-semibold py-3 rounded-lg transition-colors"
             >
               <svg
@@ -203,7 +203,7 @@ export default function Navbar() {
               >
                 <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.63a16 16 0 006.29 6.29l1.95-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
               </svg>
-              +1 (800) 555-0199
+              +1 (704) 299-7318
             </a>
             <a
               href="mailto:medairtransportservice@outlook.com"

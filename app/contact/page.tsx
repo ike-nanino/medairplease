@@ -8,79 +8,79 @@ export const metadata: Metadata = {
   description: 'Reach our 24/7 emergency dispatch, regional offices and partnership teams. Phone numbers and email addresses for MedAir Global worldwide.',
 }
 
-const offices = [
-  {
-    region: 'Americas HQ',
-    flag: '🇺🇸',
-    city: 'New York, USA',
-    phone: '+1 (800) 555-0199',
-    email: 'americas@medairglobal.com',
-    hours: '24 / 7',
-  },
-  {
-    region: 'Europe HQ',
-    flag: '🇬🇧',
-    city: 'London, UK',
-    phone: '+44 207 123 4567',
-    email: 'europe@medairglobal.com',
-    hours: '24 / 7',
-  },
-  {
-    region: 'Middle East & Africa',
-    flag: '🇦🇪',
-    city: 'Dubai, UAE',
-    phone: '+971 4 555 0234',
-    email: 'mea@medairglobal.com',
-    hours: '24 / 7',
-  },
-  {
-    region: 'Asia Pacific',
-    flag: '🇸🇬',
-    city: 'Singapore',
-    phone: '+65 6123 4567',
-    email: 'apac@medairglobal.com',
-    hours: '24 / 7',
-  },
-]
+// const offices = [
+//   {
+//     region: 'Americas HQ',
+//     flag: '🇺🇸',
+//     city: 'New York, USA',
+//     phone: '+1 (800) 555-0199',
+//     email: 'americas@medairglobal.com',
+//     hours: '24 / 7',
+//   },
+//   {
+//     region: 'Europe HQ',
+//     flag: '🇬🇧',
+//     city: 'London, UK',
+//     phone: '+44 207 123 4567',
+//     email: 'europe@medairglobal.com',
+//     hours: '24 / 7',
+//   },
+//   {
+//     region: 'Middle East & Africa',
+//     flag: '🇦🇪',
+//     city: 'Dubai, UAE',
+//     phone: '+971 4 555 0234',
+//     email: 'mea@medairglobal.com',
+//     hours: '24 / 7',
+//   },
+//   {
+//     region: 'Asia Pacific',
+//     flag: '🇸🇬',
+//     city: 'Singapore',
+//     phone: '+65 6123 4567',
+//     email: 'apac@medairglobal.com',
+//     hours: '24 / 7',
+//   },
+// ]
 
-const channels = [
-  {
-    icon: '☎️',
-    label: 'Emergency Dispatch',
-    value: '+1 (800) 555-0199',
-    sub: 'Toll-free · 24/7 · Immediate mobilisation',
-    href: 'tel:+18005550199',
-    cta: 'Call Now',
-    highlight: true,
-  },
-  {
-    icon: '✉️',
-    label: 'General Enquiries',
-    value: 'info@medairglobal.com',
-    sub: 'Non-urgent questions, partnerships',
-    href: 'mailto:info@medairglobal.com',
-    cta: 'Send Email',
-    highlight: false,
-  },
-  {
-    icon: '🚑',
-    label: 'Dispatch Operations',
-    value: 'dispatch@medairglobal.com',
-    sub: 'Mission coordination & logistics',
-    href: 'mailto:dispatch@medairglobal.com',
-    cta: 'Email Dispatch',
-    highlight: false,
-  },
-  {
-    icon: '🤝',
-    label: 'Insurance & Partnerships',
-    value: 'partners@medairglobal.com',
-    sub: 'Insurer accounts, airline partnerships',
-    href: 'mailto:partners@medairglobal.com',
-    cta: 'Email Partners',
-    highlight: false,
-  },
-]
+// const channels = [
+//   {
+//     icon: '☎️',
+//     label: 'Emergency Dispatch',
+//     value: '+1 (800) 555-0199',
+//     sub: 'Toll-free · 24/7 · Immediate mobilisation',
+//     href: 'tel:+18005550199',
+//     cta: 'Call Now',
+//     highlight: true,
+//   },
+//   {
+//     icon: '✉️',
+//     label: 'General Enquiries',
+//     value: 'info@medairglobal.com',
+//     sub: 'Non-urgent questions, partnerships',
+//     href: 'mailto:info@medairglobal.com',
+//     cta: 'Send Email',
+//     highlight: false,
+//   },
+//   {
+//     icon: '🚑',
+//     label: 'Dispatch Operations',
+//     value: 'dispatch@medairglobal.com',
+//     sub: 'Mission coordination & logistics',
+//     href: 'mailto:dispatch@medairglobal.com',
+//     cta: 'Email Dispatch',
+//     highlight: false,
+//   },
+//   {
+//     icon: '🤝',
+//     label: 'Insurance & Partnerships',
+//     value: 'partners@medairglobal.com',
+//     sub: 'Insurer accounts, airline partnerships',
+//     href: 'mailto:partners@medairglobal.com',
+//     cta: 'Email Partners',
+//     highlight: false,
+//   },
+// ]
 
 const values = [
   { icon: '❤️', title: 'Compassion', body: 'Every patient is treated as family — with full dignity and unwavering human care throughout every transfer.' },
@@ -223,13 +223,13 @@ export default function ContactPage() {
           <p className="font-serif text-2xl md:text-3xl font-bold mb-3">Facing a medical emergency right now?</p>
           <p className="text-white/80 mb-7 text-base">Do not wait. Call our emergency line — we answer in seconds, not minutes.</p>
           <a
-            href="tel:+18005550199"
+            href="tel:+17042997318"
             className="inline-flex items-center gap-3 bg-white text-[#C0392B] font-bold text-lg px-10 py-4 rounded-xl hover:bg-amber-50 transition-colors shadow-xl"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.63a16 16 0 006.29 6.29l1.95-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
             </svg>
-            +1 (800) 555-0199
+            +1 (704) 299-7318
           </a>
         </div>
       </section>

@@ -149,96 +149,9 @@ export default function ContactPage() {
               For life-threatening emergencies, always call. For planned transport and partnership enquiries, email our specialist teams.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {channels.map((c) => (
-              <div
-                key={c.label}
-                className={`rounded-2xl p-7 flex flex-col gap-3 transition-all duration-200 hover:-translate-y-1 ${
-                  c.highlight
-                    ? 'bg-[#C0392B] text-white shadow-xl shadow-[#C0392B]/25'
-                    : 'bg-white border border-stone-200 hover:shadow-lg text-[#1C1C1E]'
-                }`}
-              >
-                <span className="text-3xl">{c.icon}</span>
-                <div>
-                  <p className={`text-xs font-bold uppercase tracking-widest mb-1.5 ${c.highlight ? 'text-white/70' : 'text-[#C0392B]'}`}>
-                    {c.label}
-                  </p>
-                  <p className={`font-serif font-bold text-base leading-snug break-all ${c.highlight ? 'text-white' : 'text-[#1C1C1E]'}`}>
-                    {c.value}
-                  </p>
-                  <p className={`text-xs mt-1.5 leading-snug ${c.highlight ? 'text-white/70' : 'text-[#6B6B6B]'}`}>
-                    {c.sub}
-                  </p>
-                </div>
-                <a
-                  href={c.href}
-                  className={`mt-auto inline-flex items-center gap-1.5 text-sm font-semibold transition-colors ${
-                    c.highlight
-                      ? 'text-white/90 hover:text-white'
-                      : 'text-[#C0392B] hover:text-[#96281B]'
-                  }`}
-                >
-                  {c.cta}
-                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                  </svg>
-                </a>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
-      {/* ── Regional Offices ── */}
-      <section className="py-20 bg-[#F5EDE0]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block text-[11px] font-bold tracking-[0.18em] uppercase text-[#C0392B] bg-[#C0392B]/10 border border-[#C0392B]/20 px-4 py-1.5 rounded-sm mb-4">
-              Global Offices
-            </span>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#1C1C1E] mb-3">Find Your Regional Team</h2>
-            <div className="flex items-center justify-center gap-3">
-              <span className="h-px w-12 bg-gradient-to-r from-transparent to-[#C9953A]" />
-              <span className="w-2 h-2 rounded-full bg-[#C9953A]" />
-              <span className="h-px w-12 bg-gradient-to-l from-transparent to-[#C9953A]" />
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {offices.map((o) => (
-              <div key={o.region} className="bg-white rounded-2xl p-6 border border-stone-200 hover:shadow-lg hover:border-[#C0392B]/30 transition-all duration-200 hover:-translate-y-1">
-                <div className="flex items-center gap-3 mb-5 pb-4 border-b border-stone-100">
-                  <span className="text-3xl">{o.flag}</span>
-                  <div>
-                    <p className="font-serif font-bold text-[#1C1C1E] text-sm leading-tight">{o.region}</p>
-                    <p className="text-[#6B6B6B] text-xs">{o.city}</p>
-                  </div>
-                </div>
-                <div className="space-y-3">
-                  <a href={`tel:${o.phone.replace(/\s/g, '')}`} className="flex items-start gap-2.5 group">
-                    <svg className="w-4 h-4 text-[#C0392B] shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.63a16 16 0 006.29 6.29l1.95-1.16a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
-                    </svg>
-                    <span className="text-sm font-semibold text-[#1C1C1E] group-hover:text-[#C0392B] transition-colors">{o.phone}</span>
-                  </a>
-                  <a href={`mailto:${o.email}`} className="flex items-start gap-2.5 group">
-                    <svg className="w-4 h-4 text-[#C0392B] shrink-0 mt-0.5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
-                    </svg>
-                    <span className="text-sm text-[#4A4A4A] group-hover:text-[#C0392B] transition-colors break-all">{o.email}</span>
-                  </a>
-                  <div className="flex items-center gap-2 pt-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-                    <span className="text-xs text-[#6B6B6B]">Available {o.hours}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ── Mission ── */}
       <section className="py-20 bg-[#1C1C1E] text-white relative overflow-hidden">

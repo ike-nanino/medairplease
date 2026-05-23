@@ -113,7 +113,7 @@ export default function FAQ() {
               Call Us Now
             </a>
             <a
-              href="mailto:dispatch@medairglobal.com"
+              href="mailto:medairtransportservice@outlook.com"
               className="flex items-center gap-2 border border-white/20 hover:border-white/40 text-white font-semibold text-sm px-5 py-3 rounded-lg transition-colors"
             >
               Email Us

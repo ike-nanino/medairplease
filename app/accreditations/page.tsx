@@ -32,7 +32,7 @@ const accreditations = [
     full: 'National Air and Surface Transport Accreditation',
     description: 'Accreditation covering both air and surface (ground) medical transport operations. NAAMTA confirms integrated quality systems across our multi-modal transport network.',
     since: '2010',
-    badge: 'USA & International',
+    badge: 'USA',
   },
   {
     logo: '/images/iata.png',

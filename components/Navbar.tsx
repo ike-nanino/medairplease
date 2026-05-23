@@ -207,7 +207,7 @@ export default function Navbar() {
             </a>
             <a
               href="mailto:medairtransportservice@outlook.com"
-              className="flex items-center justify-center gap-2 w-full border-2 border-[#C0392B] text-[#C0392B] font-semibold py-3 rounded-lg hover:bg-red-50 transition-colors text-sm"
+              className="flex items-center justify-center gap-2 w-full border-2 border-[#C0392B] text-[#C0392B] font-semibold py-3 rounded-lg hover:bg-red-50 transition-colors text-xs"
             >
               medairtransportservice@outlook.com
             </a>

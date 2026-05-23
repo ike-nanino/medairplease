@@ -11,13 +11,13 @@ export default function EmergencyBar() {
             </a>
             <span className="mx-2 text-white/30">·</span>
            
-            <span className="mx-2 text-white/30">·</span>
+            {/* <span className="mx-2 text-white/30">·</span>
             <a
               href="mailto:medairtransportservice@outlook.com"
               className="text-amber-400 font-semibold hover:text-white transition-colors"
             >
               medairtransportservice@outlook.com
-            </a>
+            </a> */}
           </span>
         </div>
       </div>

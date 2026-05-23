@@ -26,7 +26,7 @@ export default function Footer() {
 
         {/* Brand */}
         <div className="lg:col-span-1">
-         <Link href="/" className="flex items-center shrink-0 group">
+         {/* <Link href="/" className="flex items-center shrink-0 group">
                        <Image
                          src="/images/logo.png"
                          alt="Med Air Transport Logo"
@@ -35,7 +35,7 @@ export default function Footer() {
                          priority
                          className="h-auto w-[60px] md:w-[90px] object-contain transition-transform duration-300 group-hover:scale-105"
                        />
-                     </Link>
+                     </Link> */}
           <p className="text-white/60 text-sm leading-relaxed mb-6">
             World-class medical transport services across six continents. Available around the clock — because emergencies don&apos;t wait.
           </p>
